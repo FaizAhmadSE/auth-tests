@@ -1,28 +1,28 @@
 {
-    "name": "dczajkowski/auth-tests",
-    "description": "Authentication tests for Laravel built-in authentication module.",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Dariusz Czajkowski",
-            "email": "dare.czajkowski@gmail.com",
-            "homepage": "http://dczajkowski.com"
-        }
-    ],
-    "require": {
-        "laravel/framework": "~5.8"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DCzajkowski\\AuthTests\\AuthTestsServiceProvider"
-            ]
-        }
-    },
-    "autoload": {
-        "files": [
-            "src/AuthTestsServiceProvider.php",
-            "src/Console/Commands/AuthTestsMakeCommand.php"
-        ]
+  "name": "dczajkowski/auth-tests",
+  "description": "Authentication tests for Laravel built-in authentication module.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dariusz Czajkowski",
+      "email": "dare.czajkowski@gmail.com",
+      "homepage": "http://dczajkowski.com"
     }
+  ],
+  "require": {
+    "laravel/framework": "~6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DCzajkowski\\AuthTests\\AuthTestsServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "files": [
+      "src/AuthTestsServiceProvider.php",
+      "src/Console/Commands/AuthTestsMakeCommand.php"
+    ]
+  }
 }
